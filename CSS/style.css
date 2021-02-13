@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/* 
+- body 
+- navigation bar
+    title
+    search bar
+- section 
+    retos
+- footer
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Balsamiq Sans', cursive;
+  background: #e6e7e7;
+}
+
+/* -------------------- */
+/* navigation bar begin */
+/* -------------------- */
+
+.logo1 {
+  margin-left: 17%;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 280%;
+}
+
+.menu1 {
+  margin-right: 17%;
+}
+
+/* search bar */
+
+#filter {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+#filter {
+  outline: none;
+}
+
+section div.cards div.hide {
+  display: none;
+}
+
+/* -------------------- */
+/* navigation bar close */
+/* -------------------- */
+
+/* --------------- */
+/* section begin */
+/* --------------- */
+
+section div.cards {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-auto-rows: auto;
+  gap: 20px;
+  font-family: sans-serif;
+  padding: 30px 10px 0 10px;
+}
+
+.card {
+  box-shadow: 0px 2px 8px 0px #444;
+  font-family: 'Yusei Magic', cursive;
+}
+
+/* --------------- */
+/* section close */
+/* --------------- */
+
+
+/* ------------ */
+/* footer begin */
+/* ------------ */
+footer{
+  background-color:#212529;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+footer div{
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 30px;
+}
+/* ------------ */
+/* footer close */
+/* ------------ */
